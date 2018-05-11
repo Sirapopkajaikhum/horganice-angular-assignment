@@ -18,13 +18,13 @@
         <h5 class="card-title text-color">ที่อยู่ : {{product.apartmentAddress}}</h5>
         <p class="card-text text-color">เบอร์โทร : {{product.apartmentPhoneNo}}</p>
         <!-- <button type="button" class="btn btn-outline-danger" ng-click="delFunc(product.apartmentId)" href="/#!/home">ลบข้อมูล</button> -->
-        <a class="btn btn-outline-danger"  ng-click="delFunc(product.apartmentId)" href="/#!/home" role="button">ลบข้อมูล</a>
-        <button type="button" class="btn btn-outline-secondary" ng-click="showDetails = !showDetails">แก้ไขข้อมูล</button>
+        <a class="btn btn-outline-danger"  ng-click="delFunc(product.apartmentId)" href="/#!/home" role="button" style="font-family: MS Sans Serif, Times, serif;">ลบข้อมูล</a>
+        <button type="button" class="btn btn-outline-secondary" ng-click="showDetails = !showDetails" style="font-family: MS Sans Serif, Times, serif;">แก้ไขข้อมูล</button>
         </div>
     </div>
   </div>
 </div> 
-  <div class="card back-detail-card-edit" ng-show="showDetails">
+  <div class="card back-detail-card-edit" ng-show="showDetails" style="font-family: MS Sans Serif, Times, serif;">
     <div class="card-body">
       <form>
         <div class="form-group col-md-12">
@@ -39,7 +39,7 @@
           <label for="inputAddress2">เบอร์โทร</label>
           <input ng-model="inputPhone" type="text" class="form-control" id="inputAddress2" placeholder="เบอร์โทร">
         </div>
-        <a class="btn btn-primary"  ng-click="editFunc(product.apartmentId,inputName,inputAdrress,inputPhone)" href="/#!/home" role="button">updateข้อมูล</a>
+        <a class="btn btn-primary"  ng-click="editFunc(product.apartmentId,inputName,inputAdrress,inputPhone)" href="/#!/home" role="button" style="font-family: MS Sans Serif, Times, serif;">updateข้อมูล</a>
         
       </form>
     </div>

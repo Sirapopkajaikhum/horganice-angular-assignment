@@ -55,6 +55,11 @@
     color: #0000CC;
     font-family: "MS Sans Serif", Times, serif;
 }
+.text-color2{
+    color: #0000CC;
+    font-family: "MS Sans Serif", Times, serif;
+    width: 800px;
+}
 .back-detail{
     background-image: url("gradient_bg.png");
     background-repeat: repeat-x;
