@@ -186,6 +186,7 @@ angular
                 for(var apartment of apartments){
                     if(apartment.apartmentId == idApat){
                         console.log('do it !!!!!!!')
+                        apartment.apartmentName = idApat
                         apartment.apartmentName = nameApat
                         apartment.apartmentAddress = adrAprt
                         apartment.apartmentPhoneNo = phoneAprt
